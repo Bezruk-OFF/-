@@ -295,31 +295,31 @@
         <p style="color:var(--text-secondary);margin-bottom:15px;font-size:0.9rem">Личные чаты/аккаунты, куда клиент может написать. Отображаются в футере и поповере.</p>
         <div class="form-row">
           <div class="form-group">
-            <label>WhatsApp</label>
+            <label class="social-setting-label"><img src="/images/social/whatsapp.svg" alt="" class="social-setting-icon">WhatsApp</label>
             <input type="text" name="chat_whatsapp" value="${chats.whatsapp || ""}" placeholder="https://wa.me/...">
           </div>
           <div class="form-group">
-            <label>Telegram</label>
+            <label class="social-setting-label"><img src="/images/social/telegram.svg" alt="" class="social-setting-icon">Telegram</label>
             <input type="text" name="chat_telegram" value="${chats.telegram || ""}" placeholder="https://t.me/...">
           </div>
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label>Instagram</label>
+            <label class="social-setting-label"><img src="/images/social/instagram.svg" alt="" class="social-setting-icon">Instagram</label>
             <input type="text" name="chat_instagram" value="${chats.instagram || ""}" placeholder="https://instagram.com/...">
           </div>
           <div class="form-group">
-            <label>VK</label>
+            <label class="social-setting-label"><img src="/images/social/vk.svg" alt="" class="social-setting-icon">VK</label>
             <input type="text" name="chat_vk" value="${chats.vk || ""}" placeholder="https://vk.com/...">
           </div>
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label>MAX</label>
+            <label class="social-setting-label"><img src="/images/social/max.svg" alt="" class="social-setting-icon">MAX</label>
             <input type="text" name="chat_max" value="${chats.max || ""}" placeholder="https://max.ru/...">
           </div>
           <div class="form-group">
-            <label>OK</label>
+            <label class="social-setting-label"><img src="/images/social/odnoklassniki.svg" alt="" class="social-setting-icon">OK</label>
             <input type="text" name="chat_ok" value="${chats.ok || ""}" placeholder="https://ok.ru/...">
           </div>
         </div>
@@ -330,31 +330,31 @@
         <p style="color:var(--text-secondary);margin-bottom:15px;font-size:0.9rem">Публичные каналы/страницы, на которые клиент может подписаться. Отображаются в блоке «Обо мне».</p>
         <div class="form-row">
           <div class="form-group">
-            <label>WhatsApp</label>
+            <label class="social-setting-label"><img src="/images/social/whatsapp.svg" alt="" class="social-setting-icon">WhatsApp</label>
             <input type="text" name="channel_whatsapp" value="${channels.whatsapp || ""}" placeholder="https://wa.me/...">
           </div>
           <div class="form-group">
-            <label>Telegram</label>
+            <label class="social-setting-label"><img src="/images/social/telegram.svg" alt="" class="social-setting-icon">Telegram</label>
             <input type="text" name="channel_telegram" value="${channels.telegram || ""}" placeholder="https://t.me/...">
           </div>
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label>Instagram</label>
+            <label class="social-setting-label"><img src="/images/social/instagram.svg" alt="" class="social-setting-icon">Instagram</label>
             <input type="text" name="channel_instagram" value="${channels.instagram || ""}" placeholder="https://instagram.com/...">
           </div>
           <div class="form-group">
-            <label>VK</label>
+            <label class="social-setting-label"><img src="/images/social/vk.svg" alt="" class="social-setting-icon">VK</label>
             <input type="text" name="channel_vk" value="${channels.vk || ""}" placeholder="https://vk.com/...">
           </div>
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label>MAX</label>
+            <label class="social-setting-label"><img src="/images/social/max.svg" alt="" class="social-setting-icon">MAX</label>
             <input type="text" name="channel_max" value="${channels.max || ""}" placeholder="https://max.ru/...">
           </div>
           <div class="form-group">
-            <label>OK</label>
+            <label class="social-setting-label"><img src="/images/social/odnoklassniki.svg" alt="" class="social-setting-icon">OK</label>
             <input type="text" name="channel_ok" value="${channels.ok || ""}" placeholder="https://ok.ru/...">
           </div>
         </div>

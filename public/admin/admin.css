@@ -355,6 +355,20 @@ body {
 	color: var(--text);
 }
 
+/* Social network labels in chat and channel settings */
+.social-setting-label {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.social-setting-icon {
+	width: 22px;
+	height: 22px;
+	object-fit: contain;
+	flex: 0 0 22px;
+}
+
 /* Forms */
 .form-row {
 	display: grid;
