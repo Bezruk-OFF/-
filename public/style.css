@@ -325,23 +325,33 @@ ol {
 
 .contact-popover-chats {
 	display: flex;
-	flex-wrap: wrap;
-	gap: 12px;
+	flex-direction: column;
+	align-items: stretch;
+	gap: 4px;
 }
 
 .contact-chat-btn {
-	width: 48px;
-	height: 48px;
+	width: 100%;
+	min-height: 48px;
 	display: flex;
 	align-items: center;
-	justify-content: center;
-	border-radius: 50%;
+	justify-content: flex-start;
+	gap: 10px;
+	border-radius: 12px;
 	background: transparent;
 	color: var(--text);
-	padding: 0;
+	padding: 6px 8px;
 	border: 0;
 	overflow: visible;
 	transition: var(--transition);
+	font-size: 0.95rem;
+	line-height: 1.35;
+	text-decoration: none;
+	text-align: left;
+}
+
+.contact-chat-btn span {
+	min-width: 0;
 }
 
 .contact-chat-btn:hover {
@@ -1408,6 +1418,12 @@ ol {
 	font-weight: 500;
 }
 
+.footer-address {
+	margin-top: 8px;
+	font-size: 0.95rem;
+	opacity: 0.8;
+}
+
 .delivery-info {
 	margin-top: 10px;
 	font-size: 0.95rem;
@@ -1416,8 +1432,9 @@ ol {
 
 .footer-social {
 	display: flex;
-	justify-content: flex-end;
-	gap: 15px;
+	flex-direction: column;
+	align-items: flex-end;
+	gap: 10px;
 }
 
 .social-link {
@@ -1434,6 +1451,23 @@ ol {
 .social-link:hover {
 	background: transparent;
 	transform: translateY(-3px);
+}
+
+.footer-social .social-link {
+	width: auto;
+	height: auto;
+	flex-direction: row;
+	justify-content: flex-end;
+	gap: 10px;
+	color: #fff;
+	font-size: 0.95rem;
+	line-height: 1.35;
+	text-decoration: none;
+	text-align: right;
+}
+
+.footer-social .social-link span {
+	white-space: nowrap;
 }
 
 .social-link:hover,
@@ -1498,7 +1532,12 @@ ol {
 	}
 
 	.footer-social {
+		align-items: center;
+	}
+
+	.footer-social .social-link {
 		justify-content: center;
+		text-align: center;
 	}
 }
 

@@ -136,29 +136,29 @@
         <% const chats = settings.chats || settings.socialLinks || {}; %>
         <% if (chats.whatsapp) { %>
           <a href="<%= chats.whatsapp %>" target="_blank" rel="noopener" class="contact-chat-btn" data-platform="whatsapp" data-stats="chat-whatsapp" title="WhatsApp">
-            <%- renderSocialIcon('whatsapp') %>
+            <%- renderSocialIcon('whatsapp') %><span>Написать мне в WhatsApp</span>
           </a>
         <% } %>
         <% if (chats.telegram) { %>
           <a href="<%= chats.telegram %>" target="_blank" rel="noopener" class="contact-chat-btn" data-platform="telegram" data-stats="chat-telegram" title="Telegram">
-            <%- renderSocialIcon('telegram') %>
+            <%- renderSocialIcon('telegram') %><span>Написать мне в Telegram</span>
           </a>
         <% } %>
         <% if (chats.instagram) { %>
           <a href="<%= chats.instagram %>" target="_blank" rel="noopener" class="contact-chat-btn" data-platform="instagram" data-stats="chat-instagram" title="Instagram">
-            <%- renderSocialIcon('instagram') %>
+            <%- renderSocialIcon('instagram') %><span>Написать мне в Instagram</span>
           </a>
         <% } %>
         <% if (chats.vk) { %>
           <a href="<%= chats.vk %>" target="_blank" rel="noopener" class="contact-chat-btn" data-platform="vk" data-stats="chat-vk" title="VK">
-            <%- renderSocialIcon('vk') %>
+            <%- renderSocialIcon('vk') %><span>Написать мне в VK</span>
           </a>
         <% } %>
         <% if (chats.max) { %>
-          <a href="<%= chats.max %>" target="_blank" rel="noopener" class="contact-chat-btn" data-platform="max" data-stats="chat-max" title="MAX"><%- renderSocialIcon('max') %></a>
+          <a href="<%= chats.max %>" target="_blank" rel="noopener" class="contact-chat-btn" data-platform="max" data-stats="chat-max" title="MAX"><%- renderSocialIcon('max') %><span>Написать мне в MAX</span></a>
         <% } %>
         <% if (chats.ok) { %>
-          <a href="<%= chats.ok %>" target="_blank" rel="noopener" class="contact-chat-btn" data-platform="ok" data-stats="chat-ok" title="OK"><%- renderSocialIcon('ok') %></a>
+          <a href="<%= chats.ok %>" target="_blank" rel="noopener" class="contact-chat-btn" data-platform="ok" data-stats="chat-ok" title="OK"><%- renderSocialIcon('ok') %><span>Написать мне в OK</span></a>
         <% } %>
       </div>
     </div>
@@ -449,35 +449,38 @@
           <% } %>
           <span><%= settings.siteName %></span>
         </div>
-        
+
         <div class="footer-contacts">
           <% if (settings.contacts && settings.contacts.phone) { %>
             <a href="tel:<%= settings.contacts.phone %>" data-stats="phone-footer"><%= settings.contacts.phone %></a>
+          <% } %>
+          <% if (settings.contacts && settings.contacts.address) { %>
+            <p class="footer-address"><%= settings.contacts.address %></p>
           <% } %>
           <% if (settings.deliveryInfo) { %>
             <p class="delivery-info"><%= settings.deliveryInfo %></p>
           <% } %>
         </div>
-        
+
         <div class="footer-social">
           <% const footerChats = settings.chats || settings.socialLinks || {}; %>
           <% if (footerChats.whatsapp) { %>
-            <a href="<%= footerChats.whatsapp %>" target="_blank" rel="noopener" class="social-link" data-platform="whatsapp" data-stats="chat-whatsapp"><%- renderSocialIcon('whatsapp') %></a>
+            <a href="<%= footerChats.whatsapp %>" target="_blank" rel="noopener" class="social-link footer-chat-link" data-platform="whatsapp" data-stats="chat-whatsapp"><%- renderSocialIcon('whatsapp') %><span>Написать мне в WhatsApp</span></a>
           <% } %>
           <% if (footerChats.telegram) { %>
-            <a href="<%= footerChats.telegram %>" target="_blank" rel="noopener" class="social-link" data-platform="telegram" data-stats="chat-telegram"><%- renderSocialIcon('telegram') %></a>
+            <a href="<%= footerChats.telegram %>" target="_blank" rel="noopener" class="social-link footer-chat-link" data-platform="telegram" data-stats="chat-telegram"><%- renderSocialIcon('telegram') %><span>Написать мне в Telegram</span></a>
           <% } %>
           <% if (footerChats.instagram) { %>
-            <a href="<%= footerChats.instagram %>" target="_blank" rel="noopener" class="social-link" data-platform="instagram"><%- renderSocialIcon('instagram') %></a>
+            <a href="<%= footerChats.instagram %>" target="_blank" rel="noopener" class="social-link footer-chat-link" data-platform="instagram"><%- renderSocialIcon('instagram') %><span>Написать мне в Instagram</span></a>
           <% } %>
           <% if (footerChats.vk) { %>
-            <a href="<%= footerChats.vk %>" target="_blank" rel="noopener" class="social-link" data-platform="vk"><%- renderSocialIcon('vk') %></a>
+            <a href="<%= footerChats.vk %>" target="_blank" rel="noopener" class="social-link footer-chat-link" data-platform="vk"><%- renderSocialIcon('vk') %><span>Написать мне в VK</span></a>
           <% } %>
           <% if (footerChats.max) { %>
-            <a href="<%= footerChats.max %>" target="_blank" rel="noopener" class="social-link" data-platform="max" data-stats="chat-max" title="MAX"><%- renderSocialIcon('max') %></a>
+            <a href="<%= footerChats.max %>" target="_blank" rel="noopener" class="social-link footer-chat-link" data-platform="max" data-stats="chat-max" title="MAX"><%- renderSocialIcon('max') %><span>Написать мне в MAX</span></a>
           <% } %>
           <% if (footerChats.ok) { %>
-            <a href="<%= footerChats.ok %>" target="_blank" rel="noopener" class="social-link" data-platform="ok" data-stats="chat-ok" title="OK"><%- renderSocialIcon('ok') %></a>
+            <a href="<%= footerChats.ok %>" target="_blank" rel="noopener" class="social-link footer-chat-link" data-platform="ok" data-stats="chat-ok" title="OK"><%- renderSocialIcon('ok') %><span>Написать мне в OK</span></a>
           <% } %>
         </div>
       </div>
