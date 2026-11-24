@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "konditer-static-check",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [".claude/preview-server.js"],
+      "port": 3101,
+      "url": "http://localhost:3101"
+    }
+  ]
+}

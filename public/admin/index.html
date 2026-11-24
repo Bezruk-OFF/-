@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Админ-панель — Кондитер</title>
+  <link rel="stylesheet" href="admin.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <!-- Login Screen -->
+  <div id="login-screen" class="login-screen">
+    <div class="login-card">
+      <h1>Вход в админку</h1>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="password">Пароль</label>
+          <input type="password" id="password" name="password" required placeholder="Введите пароль">
+        </div>
+        <button type="submit" class="btn btn-primary">Войти</button>
+        <p id="login-error" class="error-msg" style="display: none;">Неверный пароль</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Admin Interface -->
+  <div id="admin-app" class="admin-app" style="display: none;">
+    <!-- Header -->
+    <header class="admin-header">
+      <div class="header-left">
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+        <h1>Админ-панель</h1>
+      </div>
+      <div class="header-right">
+        <button class="theme-toggle" id="theme-toggle" title="Сменить тему">
+          <span class="theme-icon">🌙</span>
+        </button>
+        <a href="/" target="_blank" class="btn btn-sm">Открыть сайт</a>
+        <button class="btn btn-sm btn-logout" id="logout-btn">Выйти</button>
+      </div>
+    </header>
+
+    <div class="admin-body">
+      <!-- Sidebar -->
+      <aside class="sidebar" id="sidebar">
+        <nav class="sidebar-nav">
+          <button class="nav-item active" data-section="settings">⚙️ Настройки</button>
+          <button class="nav-item" data-section="hero">🎯 Hero</button>
+          <button class="nav-item" data-section="catalog">🧁 Каталог</button>
+          <button class="nav-item" data-section="promo">🎁 Промо</button>
+          <button class="nav-item" data-section="portfolio">📸 Портфолио</button>
+          <button class="nav-item" data-section="faq">❓ FAQ</button>
+          <button class="nav-item" data-section="reviews">⭐ Отзывы</button>
+          <button class="nav-item" data-section="about">👩‍🍳 Обо мне</button>
+          <button class="nav-item" data-section="sections">📋 Секции</button>
+          <button class="nav-item" data-section="analytics">📊 Аналитика</button>
+          <button class="nav-item" data-section="backups">💾 Бэкапы</button>
+        </nav>
+      </aside>
+
+      <!-- Main Content -->
+      <main class="content" id="content">
+        <!-- Sections will be rendered here -->
+      </main>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast"></div>
+
+  <script src="admin.js"></script>
+</body>
+</html>

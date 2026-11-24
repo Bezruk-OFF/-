@@ -1,0 +1,678 @@
+{
+  "settings": {
+    "siteName": "Кондитер_2",
+    "confectionerName": "Ира",
+    "orderButtonText": "Заказать",
+    "contactButtonText": "Связаться с кондитером",
+    "contacts": {
+      "phone": "+7 999 999 99 99",
+      "email": "tort@gmail.com",
+      "address": "Новосибирск"
+    },
+    "socialLinks": {
+      "whatsapp": "https://1",
+      "telegram": "https://2",
+      "instagram": "https://3",
+      "vk": "https://4",
+      "max": "https://5"
+    },
+    "chats": {
+      "whatsapp": "https://1",
+      "telegram": "https://2",
+      "instagram": "https://3",
+      "vk": "https://4",
+      "max": "https://5",
+      "ok": "https://6"
+    },
+    "channels": {
+      "whatsapp": "https://11",
+      "telegram": "https://22",
+      "instagram": "",
+      "vk": "https://44",
+      "max": "https://55",
+      "ok": "https://66"
+    },
+    "deliveryInfo": "Доставка по городу от 1 часа",
+    "copyright": "© Кондитер, 2026",
+    "logoImage": "",
+    "colorScheme": {
+      "primary": "#e8a87c",
+      "primaryHover": "#d48d5f",
+      "bg": "#fff8f5",
+      "text": "#333333",
+      "cardBg": "#ffffff"
+    }
+  },
+  "hero": {
+    "title": "Домашние торты на заказ",
+    "subtitle": "Очень длинный подзаголовок... Очень длинный подзаголовок... Очень длинный подзаголовок... \nОчень длинный подзаголовок... Очень длинный подзаголовок... \nОчень длинный подзаголовок... Очень длинный подзаголовок... Очень длинный подзаголовок... Очень длинный подзаголовок... ",
+    "buttonText": "Смотреть каталог",
+    "backgroundImage": "/img/uploads/about/1794470445725-mf7t8zi5g2m.webp",
+    "gradientSettings": {
+      "enabled": true,
+      "startColor": "#000000",
+      "endColor": "#000000",
+      "opacity": 0.2
+    }
+  },
+  "catalog": [
+    {
+      "id": "cat1",
+      "name": "Торты шморты",
+      "order": 0,
+      "isVisible": true,
+      "desserts": [
+        {
+          "name": "Десерт 5",
+          "shortDescription": "",
+          "fullDescription": "Полное описание, очень полное, совсем полное...\nПолное описание, очень полное, совсем полное...\nПолное описание, очень полное, совсем полное...\n",
+          "price": 2344,
+          "oldPrice": null,
+          "unit": "₽/кг",
+          "priceNote": "",
+          "image": "/img/uploads/desserts/1794468785182-rshps8bvq6.webp",
+          "isAvailable": true,
+          "photos": [
+            "/img/uploads/desserts/1794468785182-rshps8bvq6.webp",
+            "/img/uploads/desserts/1794468785467-dzw0g3a6gs9.webp",
+            "/img/uploads/desserts/1794468785719-ez0muuoikdb.webp"
+          ],
+          "categoryId": "cat1",
+          "slug": "десерт-5",
+          "isArchived": false,
+          "order": 0,
+          "id": "des1787734667647"
+        },
+        {
+          "name": "торт",
+          "shortDescription": "",
+          "fullDescription": "",
+          "price": 3434,
+          "oldPrice": null,
+          "unit": "",
+          "priceNote": "",
+          "image": "/img/uploads/desserts/1795014444719-13qb1lw87oy.webp",
+          "isAvailable": true,
+          "photos": [
+            "/img/uploads/desserts/1795014444719-13qb1lw87oy.webp",
+            "/img/uploads/desserts/1795014445246-36jw4dq8yeg.webp",
+            "/img/uploads/desserts/1795014445789-azcgrhe77o6.webp"
+          ],
+          "categoryId": "cat1",
+          "slug": "торт",
+          "isArchived": false,
+          "order": 1,
+          "id": "des1788165525761"
+        },
+        {
+          "name": "Молочная девочка",
+          "shortDescription": "",
+          "fullDescription": "",
+          "price": 4324,
+          "oldPrice": null,
+          "unit": "",
+          "priceNote": "",
+          "image": "/img/uploads/desserts/1795014466555-evb342nbl1g.webp",
+          "isAvailable": true,
+          "photos": [
+            "/img/uploads/desserts/1795014466555-evb342nbl1g.webp",
+            "/img/uploads/desserts/1795014467138-5iyz1joyhia.webp"
+          ],
+          "categoryId": "cat1",
+          "slug": "молочная-девочка",
+          "isArchived": false,
+          "order": 2,
+          "id": "des1788165545015"
+        },
+        {
+          "id": "des1",
+          "name": "Наполеон",
+          "shortDescription": "Краткое",
+          "fullDescription": "Классический слоёный торт",
+          "price": 1500,
+          "oldPrice": null,
+          "unit": "₽/бокс",
+          "priceNote": "Цена от 2 кг",
+          "image": "/img/uploads/desserts/1795014483114-1fh7wfuhqlb.webp",
+          "photos": [
+            "/img/uploads/desserts/1795014483114-1fh7wfuhqlb.webp"
+          ],
+          "categoryId": "cat1",
+          "slug": "наполеон",
+          "isAvailable": true,
+          "isArchived": false,
+          "order": 3
+        }
+      ]
+    },
+    {
+      "id": "cat1787802567102",
+      "name": "Торты 3",
+      "order": 1,
+      "isVisible": true,
+      "desserts": [
+        {
+          "name": "Десерт 3",
+          "shortDescription": "Краткое 3",
+          "fullDescription": "Полное 3",
+          "price": 3000,
+          "oldPrice": 3300,
+          "unit": "₽/кг",
+          "priceNote": "цена действительно до конца августа",
+          "image": "/img/uploads/desserts/1795014494995-5ufc6trxkdj.webp",
+          "isAvailable": true,
+          "photos": [
+            "/img/uploads/desserts/1795014494995-5ufc6trxkdj.webp"
+          ],
+          "categoryId": "cat1787802567102",
+          "slug": "десерт-3",
+          "isArchived": false,
+          "order": 0,
+          "id": "des1787802652081"
+        }
+      ]
+    },
+    {
+      "id": "cat1787718691321",
+      "name": "тест 2",
+      "order": 2,
+      "isVisible": true,
+      "desserts": [
+        {
+          "name": "Торт 3",
+          "shortDescription": "краткое",
+          "fullDescription": "полное",
+          "price": 3023,
+          "oldPrice": null,
+          "unit": "₽/кг",
+          "priceNote": "",
+          "image": "/img/uploads/desserts/1787811596523-d1bbqz7q33q.webp",
+          "isAvailable": true,
+          "photos": [
+            "/img/uploads/desserts/1787811596523-d1bbqz7q33q.webp",
+            "/img/uploads/desserts/1787811824242-v1w41xm39pt.webp"
+          ],
+          "categoryId": "cat1787718691321",
+          "slug": "торт-3",
+          "isArchived": false,
+          "order": 0,
+          "id": "des1787719331961"
+        }
+      ]
+    }
+  ],
+  "promo": {
+    "enabled": true,
+    "title": "День мам 29 ноября",
+    "text": "Скидка 10% на все торты \nИ много много много много много текста!!!!!!!\n",
+    "buttonText": "Заказать",
+    "backgroundImage": "",
+    "backgroundColor": "#e1eef4",
+    "textColor": "#fb14ff",
+    "images": [
+      "/img/uploads/about/1795007570099-gr8130m0s6r.webp",
+      "/img/uploads/about/1795007569506-oirl7dv8gqd.webp"
+    ]
+  },
+  "portfolio": {
+    "subtitle": "Мои лучшие работы",
+    "categories": [
+      {
+        "id": "port1788168387721",
+        "name": "торт 1",
+        "isVisible": true,
+        "coverPhoto": "",
+        "photos": [
+          "/img/uploads/portfolio/1795013361310-s5ra8q4uu8r.webp",
+          "/img/uploads/portfolio/1795013361093-52fjjnntfu7.webp",
+          "/img/uploads/portfolio/1795013360870-wp2y7sa0o9b.webp",
+          "/img/uploads/portfolio/1795013360667-nyapj8ymt7e.webp"
+        ],
+        "order": 0
+      },
+      {
+        "id": "port1788168424566",
+        "name": "Новогодние десерты",
+        "isVisible": true,
+        "coverPhoto": "",
+        "photos": [
+          "/img/uploads/portfolio/1795013405636-gb68peaa3ms.webp",
+          "/img/uploads/portfolio/1795013404781-o8e297m7ajh.webp",
+          "/img/uploads/portfolio/1795013403910-segqoptoby.webp",
+          "/img/uploads/portfolio/1795013403002-685m8gghbh.webp",
+          "/img/uploads/portfolio/1795013402131-hxuc7vhmx97.webp",
+          "/img/uploads/portfolio/1795013401076-pma6m00yg5.webp",
+          "/img/uploads/portfolio/1795013400845-311xegpbvl7.webp"
+        ],
+        "order": 1
+      },
+      {
+        "id": "port1788168336268",
+        "name": "торт 3",
+        "isVisible": true,
+        "coverPhoto": "",
+        "photos": [],
+        "order": 2
+      },
+      {
+        "id": "port1795014056329",
+        "name": "Десерты",
+        "isVisible": true,
+        "coverPhoto": "",
+        "photos": [],
+        "order": 3
+      },
+      {
+        "id": "port1795014073234",
+        "name": "Шоколад",
+        "isVisible": true,
+        "coverPhoto": "",
+        "photos": [],
+        "order": 4
+      }
+    ],
+    "title": "Портфолио"
+  },
+  "faq": [
+    {
+      "id": "faq1788168828490",
+      "question": "Вопрос попирос?",
+      "answer": "У мотросов нет вопросов!",
+      "isVisible": true
+    },
+    {
+      "id": "faq1",
+      "question": "Как сделать заказ 2?",
+      "answer": "Свяжитесь с нами через мессенджер или по телефону. 2"
+    },
+    {
+      "id": "faq1788330743824",
+      "question": "Вопрос",
+      "answer": "Ответ!\n\nОтступ"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev1788342563590",
+      "clientName": "Таня",
+      "text": "",
+      "date": "2026-09-02",
+      "screenshot": "/img/uploads/reviews/1795261969364-5u7cul3uwaf.webp",
+      "isVisible": true
+    },
+    {
+      "id": "rev1788341670768",
+      "clientName": "Оля",
+      "text": "",
+      "date": "2026-09-02",
+      "screenshot": "/img/uploads/reviews/1795261981510-i1mx1qvqbd.webp",
+      "isVisible": true
+    },
+    {
+      "id": "rev1795250867622",
+      "clientName": "Лучший клиент",
+      "text": "Отзыв без картинки\n\nОчень большой отзыв, ну очень очень большой...!!!! \nОчень большой отзыв, ну очень очень большой...!!!!\nОчень большой отзыв, ну очень очень большой...!!!!\nОчень большой отзыв, ну очень очень большой...!!!!\nОчень большой отзыв, ну очень очень большой...!!!!\n\nОчень большой отзыв, ну очень очень большой...!!!! \nОчень большой отзыв, ну очень очень большой...!!!!\nОчень большой отзыв, ну очень очень большой...!!!!\nОчень большой отзыв, ну очень очень большой...!!!!\nОчень большой отзыв, ну очень очень большой...!!!!",
+      "date": "2026-11-21",
+      "screenshot": "",
+      "isVisible": true
+    },
+    {
+      "id": "rev1795251264228",
+      "clientName": "Макс",
+      "text": "",
+      "date": "2026-11-21",
+      "screenshot": "/img/uploads/reviews/1795262150999-soebrfr710q.webp",
+      "isVisible": true
+    },
+    {
+      "id": "rev1795261462778",
+      "clientName": "Сава",
+      "text": "",
+      "date": "2026-11-21",
+      "screenshot": "/img/uploads/reviews/1795261451284-xhq8t19nsim.webp",
+      "isVisible": true
+    },
+    {
+      "id": "rev1795261477733",
+      "clientName": "Алла",
+      "text": "Очень вкусно",
+      "date": "2026-11-21",
+      "screenshot": "",
+      "isVisible": true
+    }
+  ],
+  "about": {
+    "text": "Я — домашний кондитер. Готовлю с любовью! \nНовая строка и много много текста обо мне много много текста обо мне много много текста обо мне много много текста обо мне много много текста обо мне много много текста обо мне много много текста обо мне много много текста обо мне.\n",
+    "channelCaption": "",
+    "photo": "/img/uploads/about/1795263346889-gbuxqnm46t6.webp"
+  },
+  "sections": [
+    "promo",
+    "catalog",
+    "portfolio",
+    "faq",
+    "reviews",
+    "about"
+  ],
+  "siteTexts": {
+    "orderButtonText": "Заказать",
+    "promoButtonText": "Хочу акцию"
+  },
+  "stats": {
+    "clicks": {
+      "chat": {
+        "total": {
+          "whatsapp": 1,
+          "telegram": 0,
+          "max": 0,
+          "instagram": null
+        },
+        "daily": {
+          "2026-08-26": {
+            "whatsapp": 1,
+            "instagram": 1
+          }
+        }
+      },
+      "channel": {
+        "total": {
+          "telegram": 0,
+          "max": 0
+        },
+        "daily": {}
+      },
+      "phone": {
+        "total": {
+          "popover": 72,
+          "footer": 0
+        },
+        "daily": {
+          "2026-08-25": {
+            "popover": 1
+          },
+          "2026-08-26": {
+            "popover": 5
+          },
+          "2026-08-27": {
+            "popover": 3
+          },
+          "2026-08-31": {
+            "popover": 1
+          },
+          "2026-11-12": {
+            "popover": 6
+          },
+          "2026-11-13": {
+            "popover": 3
+          },
+          "2026-11-18": {
+            "popover": 29
+          },
+          "2026-11-19": {
+            "popover": 2
+          },
+          "2026-11-23": {
+            "popover": 11
+          },
+          "2026-11-24": {
+            "popover": 11
+          }
+        }
+      }
+    },
+    "portfolioViews": {
+      "total": 0,
+      "daily": {}
+    },
+    "reviewsViews": {
+      "total": 106,
+      "daily": {
+        "2026-09-02": 34,
+        "2026-09-03": 6,
+        "2026-11-21": 62,
+        "2026-11-24": 4
+      }
+    },
+    "funnel": {
+      "catalogViews": {
+        "total": 557,
+        "daily": {
+          "2026-08-25": 4,
+          "2026-08-26": 80,
+          "2026-08-27": 73,
+          "2026-08-28": 32,
+          "2026-08-31": 52,
+          "2026-09-02": 86,
+          "2026-09-03": 16,
+          "2026-09-04": 23,
+          "2026-09-07": 36,
+          "2026-09-09": 4,
+          "2026-11-12": 10,
+          "2026-11-16": 1,
+          "2026-11-17": 1,
+          "2026-11-18": 48,
+          "2026-11-19": 7,
+          "2026-11-20": 10,
+          "2026-11-21": 42,
+          "2026-11-22": 1,
+          "2026-11-23": 12,
+          "2026-11-24": 19
+        }
+      },
+      "orderClicks": {
+        "total": 41,
+        "daily": {
+          "2026-08-25": 3,
+          "2026-08-26": 8,
+          "2026-08-27": 26,
+          "2026-11-18": 3,
+          "2026-11-19": 1
+        }
+      }
+    },
+    "promoClicks": {
+      "total": 5,
+      "daily": {
+        "2026-08-27": 2,
+        "2026-11-24": 3
+      }
+    },
+    "faqClicks": {
+      "items": {
+        "faq1": 10,
+        "faq1788168828490": 8,
+        "faq1788168838681": 5,
+        "faq1788330743824": 10
+      },
+      "daily": {
+        "2026-08-31": {
+          "faq1": 3,
+          "faq1788168828490": 3,
+          "faq1788168838681": 2
+        },
+        "2026-09-02": {
+          "faq1": 4,
+          "faq1788168828490": 3,
+          "faq1788168838681": 3,
+          "faq1788330743824": 2
+        },
+        "2026-09-03": {
+          "faq1788168828490": 1,
+          "faq1788330743824": 5
+        },
+        "2026-11-18": {
+          "faq1788330743824": 1,
+          "faq1": 1
+        },
+        "2026-11-21": {
+          "faq1788168828490": 1,
+          "faq1": 1,
+          "faq1788330743824": 1
+        },
+        "2026-11-24": {
+          "faq1": 1,
+          "faq1788330743824": 1
+        }
+      }
+    },
+    "desserts": {
+      "des1": {
+        "views": 50,
+        "dailyViews": {
+          "2026-08-25": 3,
+          "2026-08-26": 4,
+          "2026-08-27": 24,
+          "2026-08-31": 1,
+          "2026-09-03": 1,
+          "2026-11-12": 1,
+          "2026-11-18": 4,
+          "2026-11-19": 4,
+          "2026-11-20": 5,
+          "2026-11-21": 1,
+          "2026-11-24": 2
+        }
+      },
+      "des1787719470317": {
+        "views": 1,
+        "dailyViews": {
+          "2026-08-26": 1
+        }
+      },
+      "des1787734667647": {
+        "views": 64,
+        "dailyViews": {
+          "2026-08-26": 1,
+          "2026-08-27": 8,
+          "2026-08-31": 1,
+          "2026-09-03": 6,
+          "2026-11-12": 3,
+          "2026-11-18": 23,
+          "2026-11-19": 3,
+          "2026-11-20": 13,
+          "2026-11-21": 2,
+          "2026-11-24": 4
+        }
+      },
+      "des1787719331961": {
+        "views": 9,
+        "dailyViews": {
+          "2026-08-26": 2,
+          "2026-08-27": 7
+        }
+      },
+      "des1787802652081": {
+        "views": 5,
+        "dailyViews": {
+          "2026-08-27": 5
+        }
+      },
+      "des1788165525761": {
+        "views": 26,
+        "dailyViews": {
+          "2026-09-03": 2,
+          "2026-11-18": 9,
+          "2026-11-19": 3,
+          "2026-11-20": 9,
+          "2026-11-21": 1,
+          "2026-11-24": 2
+        }
+      },
+      "des1788165545015": {
+        "views": 11,
+        "dailyViews": {
+          "2026-09-03": 1,
+          "2026-11-18": 1,
+          "2026-11-19": 1,
+          "2026-11-20": 5,
+          "2026-11-21": 1,
+          "2026-11-24": 2
+        }
+      }
+    }
+  },
+  "visits": {
+    "byDay": {
+      "2026-08-25": {
+        "desktop": 3
+      },
+      "2026-08-26": {
+        "desktop": 43
+      },
+      "2026-08-27": {
+        "desktop": 42,
+        "ios": 1
+      },
+      "2026-08-28": {
+        "desktop": 32
+      },
+      "2026-08-31": {
+        "desktop": 46,
+        "ios": 2
+      },
+      "2026-09-02": {
+        "desktop": 81
+      },
+      "2026-09-03": {
+        "desktop": 13
+      },
+      "2026-09-04": {
+        "desktop": 21
+      },
+      "2026-09-07": {
+        "desktop": 32
+      },
+      "2026-09-09": {
+        "desktop": 4
+      },
+      "2026-11-12": {
+        "desktop": 8
+      },
+      "2026-11-16": {
+        "desktop": 1
+      },
+      "2026-11-17": {
+        "desktop": 1
+      },
+      "2026-11-18": {
+        "desktop": 32,
+        "ios": 3,
+        "android": 1
+      },
+      "2026-11-19": {
+        "desktop": 7
+      },
+      "2026-11-20": {
+        "desktop": 7,
+        "ios": 3
+      },
+      "2026-11-21": {
+        "desktop": 36,
+        "ios": 6
+      },
+      "2026-11-22": {
+        "desktop": 1
+      },
+      "2026-11-23": {
+        "desktop": 12
+      },
+      "2026-11-24": {
+        "desktop": 19
+      }
+    },
+    "byReferer": {
+      "http://localhost:3001/admin/": 307,
+      "http://localhost:3001/": 18,
+      "direct": 84,
+      "http://localhost:3002/": 47,
+      "http://localhost:3100/": 1
+    },
+    "mobilePercentage": 0
+  },
+  "faqTitle": "Частые вопросы",
+  "reviewsTitle": "Отзывы",
+  "reviewsVisible": true,
+  "aboutTitle": "Обо мне",
+  "catalogTitle": "Каталог",
+  "promoTitle": "Промо 33",
+  "portfolioTitle": "Портфолио"
+}

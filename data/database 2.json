@@ -1,0 +1,213 @@
+{
+  "settings": {
+    "siteName": "Кондитер",
+    "confectionerName": "",
+    "orderButtonText": "Заказать",
+    "contactButtonText": "Связаться с кондитером",
+    "contacts": {
+      "phone": "",
+      "email": "",
+      "address": ""
+    },
+    "socialLinks": {
+      "whatsapp": "",
+      "telegram": "",
+      "instagram": "",
+      "vk": "",
+      "max": ""
+    },
+    "chats": {
+      "whatsapp": "",
+      "telegram": "",
+      "instagram": "",
+      "vk": "",
+      "max": "",
+      "ok": ""
+    },
+    "channels": {
+      "whatsapp": "",
+      "telegram": "",
+      "instagram": "",
+      "vk": "",
+      "max": "",
+      "ok": ""
+    },
+    "deliveryInfo": "Доставка по городу от 1 часа",
+    "copyright": "© Кондитер, 2026",
+    "logoImage": "",
+    "colorScheme": {
+      "primary": "#e8a87c",
+      "primaryHover": "#d48d5f",
+      "bg": "#fff8f5",
+      "text": "#333333",
+      "cardBg": "#ffffff"
+    }
+  },
+  "hero": {
+    "title": "Домашние торты на заказ",
+    "subtitle": "Вкус, который запомнится",
+    "buttonText": "Смотреть каталог",
+    "backgroundImage": "",
+    "gradientSettings": {
+      "enabled": true,
+      "startColor": "#000000",
+      "endColor": "#000000",
+      "opacity": 0.5
+    }
+  },
+  "catalog": [
+    {
+      "id": "cat1",
+      "name": "Торты",
+      "order": 0,
+      "isVisible": true,
+      "desserts": [
+        {
+          "id": "des1",
+          "name": "Наполеон",
+          "shortDescription": "",
+          "fullDescription": "Классический слоёный торт",
+          "price": 1500,
+          "oldPrice": 1800,
+          "unit": "₽/кг",
+          "priceNote": "",
+          "image": "",
+          "photos": [],
+          "categoryId": "cat1",
+          "slug": "napoleon",
+          "isAvailable": true,
+          "isArchived": false,
+          "order": 0
+        }
+      ]
+    }
+  ],
+  "promo": {
+    "enabled": false,
+    "title": "Акция недели",
+    "text": "Скидка 10% на все торты",
+    "buttonText": "Заказать",
+    "backgroundImage": "",
+    "images": []
+  },
+  "portfolio": {
+    "subtitle": "",
+    "categories": [
+      {
+        "id": "port1",
+        "name": "Торты",
+        "isVisible": true,
+        "coverPhoto": "",
+        "photos": [],
+        "order": 0
+      }
+    ],
+    "title": "Портфолио"
+  },
+  "faq": [
+    {
+      "id": "faq1",
+      "question": "Как сделать заказ?",
+      "answer": "Свяжитесь с нами через мессенджер или по телефону."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev1",
+      "clientName": "Анна",
+      "text": "Очень вкусный торт!",
+      "screenshot": "",
+      "date": "2025-01-01"
+    }
+  ],
+  "about": {
+    "text": "Я — домашний кондитер. Готовлю с любовью!",
+    "photo": "",
+    "channelCaption": "Подписывайтесь на мой канал"
+  },
+  "sections": [
+    "about",
+    "faq",
+    "catalog",
+    "promo",
+    "portfolio",
+    "reviews"
+  ],
+  "siteTexts": {
+    "orderButtonText": "Заказать",
+    "promoButtonText": "Хочу акцию"
+  },
+  "stats": {
+    "clicks": {
+      "chat": {
+        "total": {
+          "whatsapp": 0,
+          "telegram": 0,
+          "max": 0
+        },
+        "daily": {}
+      },
+      "channel": {
+        "total": {
+          "telegram": 0,
+          "max": 0
+        },
+        "daily": {}
+      },
+      "phone": {
+        "total": {
+          "popover": 0,
+          "footer": 0
+        },
+        "daily": {}
+      }
+    },
+    "portfolioViews": {
+      "total": 0,
+      "daily": {}
+    },
+    "reviewsViews": {
+      "total": 0,
+      "daily": {}
+    },
+    "funnel": {
+      "catalogViews": {
+        "total": 6,
+        "daily": {
+          "2026-09-07": 6
+        }
+      },
+      "orderClicks": {
+        "total": 0,
+        "daily": {}
+      }
+    },
+    "promoClicks": {
+      "total": 0,
+      "daily": {}
+    },
+    "faqClicks": {
+      "items": {},
+      "daily": {}
+    },
+    "desserts": {}
+  },
+  "visits": {
+    "byDay": {
+      "2026-09-07": {
+        "desktop": 6
+      }
+    },
+    "byReferer": {
+      "http://localhost:3001/admin/": 6
+    },
+    "mobilePercentage": 0
+  },
+  "faqTitle": "Частые вопросы",
+  "reviewsTitle": "Отзывы",
+  "reviewsVisible": true,
+  "aboutTitle": "О кондитере",
+  "catalogTitle": "Каталог",
+  "promoTitle": "Промо",
+  "portfolioTitle": "Портфолио"
+}
