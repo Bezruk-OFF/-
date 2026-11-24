@@ -1776,7 +1776,7 @@ ol {
 }
 
 .modal-main-image {
-	aspect-ratio: 4 / 3;
+	aspect-ratio: 3 / 4;
 	overflow: hidden;
 	border-radius: var(--border-radius);
 	cursor: pointer;
