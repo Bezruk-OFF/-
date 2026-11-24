@@ -443,27 +443,29 @@
   <footer class="footer">
     <div class="container">
       <div class="footer-content">
-        <div class="footer-brand">
-          <% if (settings.logoImage) { %>
-            <img src="<%= settings.logoImage %>" alt="<%= settings.siteName %>" class="footer-logo">
-          <% } %>
-          <span><%= settings.siteName %></span>
-        </div>
+        <div class="footer-info">
+          <div class="footer-brand">
+            <% if (settings.logoImage) { %>
+              <img src="<%= settings.logoImage %>" alt="<%= settings.siteName %>" class="footer-logo">
+            <% } %>
+            <span><%= settings.siteName %></span>
+          </div>
 
-        <div class="footer-contacts">
-          <% if (settings.contacts && settings.contacts.phone) { %>
-            <a href="tel:<%= settings.contacts.phone %>" data-stats="phone-footer"><%= settings.contacts.phone %></a>
-          <% } %>
-          <% if (settings.contacts && settings.contacts.address) { %>
-            <p class="footer-address"><%= settings.contacts.address %></p>
-          <% } %>
-          <% if (settings.deliveryInfo) { %>
-            <p class="delivery-info"><%= settings.deliveryInfo %></p>
-          <% } %>
+          <div class="footer-contacts">
+            <% if (settings.contacts && settings.contacts.phone) { %>
+              <a href="tel:<%= settings.contacts.phone %>" data-stats="phone-footer"><%= settings.contacts.phone %></a>
+            <% } %>
+            <% if (settings.contacts && settings.contacts.address) { %>
+              <p class="footer-address"><%= settings.contacts.address %></p>
+            <% } %>
+            <% if (settings.deliveryInfo) { %>
+              <p class="delivery-info"><%= settings.deliveryInfo %></p>
+            <% } %>
+          </div>
         </div>
 
         <div class="footer-social">
-          <% const footerChats = settings.chats || settings.socialLinks || {}; %>
+          <% const footerChats = settings.chats || {}; %>
           <% if (footerChats.whatsapp) { %>
             <a href="<%= footerChats.whatsapp %>" target="_blank" rel="noopener" class="social-link footer-chat-link" data-platform="whatsapp" data-stats="chat-whatsapp"><%- renderSocialIcon('whatsapp') %><span>Написать мне в WhatsApp</span></a>
           <% } %>
@@ -471,10 +473,10 @@
             <a href="<%= footerChats.telegram %>" target="_blank" rel="noopener" class="social-link footer-chat-link" data-platform="telegram" data-stats="chat-telegram"><%- renderSocialIcon('telegram') %><span>Написать мне в Telegram</span></a>
           <% } %>
           <% if (footerChats.instagram) { %>
-            <a href="<%= footerChats.instagram %>" target="_blank" rel="noopener" class="social-link footer-chat-link" data-platform="instagram"><%- renderSocialIcon('instagram') %><span>Написать мне в Instagram</span></a>
+            <a href="<%= footerChats.instagram %>" target="_blank" rel="noopener" class="social-link footer-chat-link" data-platform="instagram" data-stats="chat-instagram"><%- renderSocialIcon('instagram') %><span>Написать мне в Instagram</span></a>
           <% } %>
           <% if (footerChats.vk) { %>
-            <a href="<%= footerChats.vk %>" target="_blank" rel="noopener" class="social-link footer-chat-link" data-platform="vk"><%- renderSocialIcon('vk') %><span>Написать мне в VK</span></a>
+            <a href="<%= footerChats.vk %>" target="_blank" rel="noopener" class="social-link footer-chat-link" data-platform="vk" data-stats="chat-vk"><%- renderSocialIcon('vk') %><span>Написать мне в VK</span></a>
           <% } %>
           <% if (footerChats.max) { %>
             <a href="<%= footerChats.max %>" target="_blank" rel="noopener" class="social-link footer-chat-link" data-platform="max" data-stats="chat-max" title="MAX"><%- renderSocialIcon('max') %><span>Написать мне в MAX</span></a>
