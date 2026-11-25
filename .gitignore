@@ -34,3 +34,12 @@ coverage/
 
 # Локальные конфиги
 *.local
+
+# Бэкапы — содержимое не пушим, остаётся только пустая папка
+backups/**
+!backups/.gitkeep
+
+# Загруженные изображения — только структура папок, без файлов
+public/img/uploads/**
+!public/img/uploads/**/
+!public/img/uploads/**/.gitkeep
